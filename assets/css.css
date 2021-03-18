@@ -1,0 +1,40 @@
+
+   body{
+      margin:100px 150px 100px 80px;
+      max-width:650px;        
+      line-height:1.6;
+      font-size:18px;
+      color: ivory ;
+      background-image: url('https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');    
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      }
+
+
+   h1,h2,h3{
+      line-height:1.2}
+
+      a{
+      text-decoration: none;}
+
+   .centertext{
+      text-align: center;}
+  
+   #grad1 {
+      background: rebeccapurple;
+      background: -webkit-linear-gradient(left, #FCF4C9 , #FEE3E2, #FBCDF2, #E8BEFA, #ABBFFF, #BBF3C0);
+      background: -o-linear-gradient(right, #FCF4C9, #FEE3E2, #FBCDF2, #E8BEFA, #ABBFFF, #BBF3C0);
+      background: -moz-linear-gradient(right, #FCF4C9, #FEE3E2, #FBCDF2, #E8BEFA, #ABBFFF, #BBF3C0);
+      background: linear-gradient(to right, #FCF4C9 , #FEE3E2, #FBCDF2, #E8BEFA, #ABBFFF, #BBF3C0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;}
+
+   
+
+
