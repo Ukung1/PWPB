@@ -1,0 +1,85 @@
+body {
+  background-image: url("https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  animation: animate 7s infinite;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+@keyframes animate {
+  from {
+    color: #fcf4c9;
+  }
+  20% {
+    color: #fee3e2;
+  }
+  40% {
+    color: #fbcdf2;
+  }
+  40% {
+    color: #e8befa;
+  }
+  60% {
+    color: #abbfff;
+  }
+  80% {
+    color: #bbf3c0;
+  }
+  100% {
+    color: #fcf4c9;
+  }
+}
+
+#grad1 {
+  background: black;
+  background: -webkit-linear-gradient(
+    left,
+    #fcf4c9,
+    #fee3e2,
+    #fbcdf2,
+    #e8befa,
+    #abbfff,
+    #bbf3c0
+  );
+  background: -o-linear-gradient(
+    right,
+    #fcf4c9,
+    #fee3e2,
+    #fbcdf2,
+    #e8befa,
+    #abbfff,
+    #bbf3c0
+  );
+  background: -moz-linear-gradient(
+    right,
+    #fcf4c9,
+    #fee3e2,
+    #fbcdf2,
+    #e8befa,
+    #abbfff,
+    #bbf3c0
+  );
+  background: linear-gradient(
+    to right,
+    #fcf4c9,
+    #fee3e2,
+    #fbcdf2,
+    #e8befa,
+    #abbfff,
+    #bbf3c0
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
